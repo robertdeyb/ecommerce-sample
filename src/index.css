@@ -42,11 +42,9 @@ footer {
 /* Common */
 h1 {
   font-size: 1.8rem;
-  padding: 1rem 0;
 }
 h2 {
-  font-size: 1.6rem;
-  padding: 1rem 0;
+  font-size: 1.4rem;
 }
 
 a {
@@ -79,8 +77,9 @@ img {
   border-radius: 0.5rem;
 }
 img.medium {
-  max-width: 29rem;
+  max-width: 18.9rem;
   width: 100%;
+  height: 18.9rem;
 }
 
 /* Card */
@@ -97,10 +96,18 @@ img.medium {
   margin-bottom: 0.5rem;
 }
 .price {
-  font-size: 2rem;
+  font-size: 1.5rem;
+  color:#f57224
 }
 /* Rating */
 .rating span {
   color: #f0c040;
   margin: 0.1rem;
+  font-size: 1.4rem;
 }
+
+/* Rating */
+.rating span:last-child {
+  color: #9e9e9e;
+}
+

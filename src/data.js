@@ -55,7 +55,7 @@ const data = {
             image: '/images/p5.jpg',
             price: 120,
             brand: "Puma",
-            rating: 4.5,
+            rating: 5,
             numReviews: 10,
             description: "Sample descrition"
 
