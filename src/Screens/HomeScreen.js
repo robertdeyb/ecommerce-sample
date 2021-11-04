@@ -1,7 +1,9 @@
-import React from 'react';
+import React, { useState } from 'react';
 import data from '../data'
 import Product from '../components/Product'
 export default function HomeScreen() {
+  //react hooks
+  const [products, setProducts] = useState([]);
     return (
         <div>
           <div className="row center">
